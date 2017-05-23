@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.tsm.ZatrzymanieWysylekSms"
+    android:id="@+id/fragmentZatrzymanieSms"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:focusable="true"
+        android:dividerHeight="8dp" />
+
+
+    <Button
+        android:text="Wznowienie"
+        android:layout_height="wrap_content"
+        android:id="@+id/SmsWznowienie"
+        android:layout_gravity="bottom|left"
+        android:layout_width="150dp"
+        android:background="@android:color/holo_green_light"
+        style="@style/Widget.AppCompat.Button" />
+    <Button
+        android:text="Zatrzymanie"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SmsZatrzymanie"
+        android:layout_gravity="bottom|right"
+        android:background="@android:color/holo_red_light" />
+
+</FrameLayout>

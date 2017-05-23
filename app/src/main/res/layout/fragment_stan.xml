@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.tsm.StanKonta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:id="@+id/textStanKonta"
+        android:layout_marginTop="70dp"
+        android:textSize="18sp"
+        android:textIsSelectable="true"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/common_google_signin_btn_text_light_focused" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:text=""
+        android:textSize="30sp"
+        android:id="@+id/textStanKontaNazwa"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        tools:background="@android:color/darker_gray" />
+
+</FrameLayout>

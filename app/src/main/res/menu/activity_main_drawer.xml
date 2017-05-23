@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Stan_konta"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Stan konta" />
+        <item
+            android:id="@+id/Wiadomosci_wewnetrzne"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Wiadomości wewnętrzne" />
+        <item
+            android:title="Status wysyłek" >
+            <menu>
+                <item
+                    android:id="@+id/SMS_Status"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="SMS" />
+                <item
+                    android:id="@+id/EMAIL_Status"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="EMAIL" />
+            </menu>
+        </item>
+
+        <item
+            android:title="Zatrzymanie wysyłki" >
+            <menu>
+                <item
+                    android:id="@+id/SMS_Zatrzymanie"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="SMS" />
+                <item
+                    android:id="@+id/EMAIL_Zatrzymanie"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="EMAIL" />
+            </menu>
+        </item>
+        </group>
+
+        <!--
+        <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+        </item>
+        -->
+
+</menu>
